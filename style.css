@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.male {
+  border: 3px solid blue;
+  background-color: blue;
+}
+.female {
+  border: 3px solid rgb(252, 151, 168);
+  background-color: rgb(252, 151, 168);
+}
+
+button {
+  padding: 7px;
+  background-color: rgba(165, 42, 42, 0.9);
+  color: white;
+  font-size: 18px;
+}
+button:hover {
+  transform: scale(0.98);
+}
