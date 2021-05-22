@@ -34,6 +34,7 @@ button {
   color: white;
   font-size: 18px;
 }
+
 button:hover {
   transform: scale(0.98);
 }
